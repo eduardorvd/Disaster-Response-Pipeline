@@ -31,16 +31,19 @@ The project also include a web app where an emergency worker can input a new mes
 
 ## File Descriptions <a name="files"></a>
 
-Data <br />
-DisasterResponse.db: Database created in SQLite that was cleaned and transformed to be used in this project.<br />
-disaster_categories.csv and disaster_messages.csv : Datasets provided by FigureEight. <br />
+### Data 
+DisasterResponse.db: Database created in SQLite that was cleaned and transformed to be used in this project.
+
+disaster_categories.csv and disaster_messages.csv : Datasets provided by FigureEight.
+
 process_data.py : Python script that executes the ETL (Execute, Transform and Load) process in the provided data. <br />
 
-App
-templates: templates files for the webapp. <br />
-run.py: run the web app used to display the plots and the Machine Learning pipeline results.<br />
+### App
+templates: templates files for the webapp. 
 
-Models <br />
+run.py: run the web app used to display the plots and the Machine Learning pipeline results.br />
+
+### Models
 train_classifier.py: Python Script that executes the Machine Learing pipeline, train the model and save the results in a .pkl file. <br />
 
 
