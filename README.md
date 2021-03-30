@@ -49,4 +49,18 @@ train_classifier.py: Python Script that executes the Machine Learing pipeline, t
 
 ## Results<a name="results"></a>
 
+To test the model results, you can use the web app to analyse the Distribution of Message Genres in the main page.
+
+![image](https://user-images.githubusercontent.com/11930892/113063655-0d542780-918c-11eb-81ac-96845c674585.png)
+
+Also, it is possible to use the message box to see in which category a certain message would be categorize in this model.
+
+![image](https://user-images.githubusercontent.com/11930892/113064088-c155b280-918c-11eb-8bf6-9252b183bb8c.png)
+
+![image](https://user-images.githubusercontent.com/11930892/113064164-ddf1ea80-918c-11eb-837d-dbc95b525be0.png)
+
+
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
+
+Must give credit to FigureEight for the data used in this project. Also, give credit to Udacity for the instructions and webapp templates.  Otherwise, feel free to use the code here as you would like.
+
