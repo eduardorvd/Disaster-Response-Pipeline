@@ -43,14 +43,14 @@ def clean_data(df):
     # concatenate the original dataframe with the new `categories` dataframe
     df = pd.concat([df, categories], axis=1, join='inner', sort=False)
     df=df.drop_duplicates()
-    df = df[df.related != '2']
+    df=df[df['related']!=2]
     return df
 
 
 def save_data(df, database_filename):
     """Save data to SQLite Database """
     engine = create_engine('sqlite:///' + database_filename)
-    df.to_sql('DisasterTable2', engine, index=False) 
+    df.to_sql('DisasterTable2', engine, index=False, if_exists='replace') 
 
 
 def main():
