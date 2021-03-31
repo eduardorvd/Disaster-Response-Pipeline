@@ -43,7 +43,7 @@ def clean_data(df):
     # concatenate the original dataframe with the new `categories` dataframe
     df = pd.concat([df, categories], axis=1, join='inner', sort=False)
     df=df.drop_duplicates()
-    df=df[df['related']!=2]
+    df=df[df['related']!='2']
     return df
 
 
