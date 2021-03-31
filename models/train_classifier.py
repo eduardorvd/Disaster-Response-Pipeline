@@ -30,7 +30,7 @@ def load_data(database_filepath):
         database_filepath 
     Output:
         X -> a dataframe containing the messages
-        Y -> a dataframe containing the ls
+        Y -> a dataframe containing the labels
         category_names -> List of categories names
     """
     engine = create_engine('sqlite:///' + database_filepath)
